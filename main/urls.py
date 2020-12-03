@@ -30,6 +30,7 @@ urlpatterns = [
     path('thanks/', mviews.Thankspage.as_view(), name='thanks'),
     path('aboutus/',mviews.AboutUs, name='aboutus'),
     path('contact/',mviews.Contact, name='contact'),
+    path('form/',mviews.Form, name='form')
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

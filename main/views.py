@@ -19,3 +19,7 @@ def AboutUs(request):
 
 def Contact(request):
     return render(request,'contact.html')
+
+
+def Form(request):
+	return render(request,'form.html')
